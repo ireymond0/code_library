@@ -18,3 +18,26 @@ bool isPrime(int n)
   }
   return true;
 }
+
+/***SAMPLE CPP:****
+
+#include <iostream>
+#include "isPrime.h"
+
+using namespace std;
+
+int main()
+{
+  int n = 0;
+
+  cout << "Number to check: ";
+  cin >> n;
+
+  if(isPrime(n))
+    cout << n << " is prime!" << endl;
+  else
+    cout << n << " is not prime!" << endl;
+
+  return 0;
+}
+************/
