@@ -4,6 +4,8 @@
 * Output: boolean value, true is prime, false is not prime
 ***/
 
+#include <math.h>
+
 bool isPrime(int n)
 {
   int d = 0;
